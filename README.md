@@ -15,12 +15,11 @@
 ```mermaid
 sequenceDiagram
     participant feature branches
-    participant iframe
-    participant viewscreen
-    feature branches->>iframe: loads html w/ iframe url
-    iframe->>viewscreen: request template
-    viewscreen->>iframe: html & javascript
-    iframe->>feature branches: iframe ready
-    feature branches->>iframe: set mermaid data on iframe
-    iframe->>iframe: render mermaid
+    participant develop
+    participant hotfix
+    feature branches->>develop: Worker pulls from one of the feature branches
+    develop->>hotfix: someone found a bug that needs immidiate fix
+    hotfix->>develop: creates a pull request and merges back to develop
+    develop->>feature branches: develop ready for review, test and merge
+    feature branches->>develop: newest version
 ```
