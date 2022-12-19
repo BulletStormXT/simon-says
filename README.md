@@ -12,11 +12,11 @@
 
 ### btw solution has jquery so just replace the selectors with how you know it
 
-Topic | React | Angular
-| :--- | :---: | ---:
-ARCHITECTURE  | Only the View of MVC | Complete MVC
-RENDERING  | Server-side rendering | Content Cell
-DOM  | Uses virtual DOM | Content Cell
-DATA BINDING  | One-way data binding | Content Cell
-DEBUGGING  | Compile time debugging | Content Cell
-Created by  | Facebook | Google
+### example of installing a package:
+```bash
+npm i package-name
+```
+#### or
+```bash
+npm install package-name
+```
