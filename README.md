@@ -11,8 +11,3 @@
 ### man just watch a video how simon says works idk man 
 
 ### btw solution has jquery so just replace the selectors with how you know it
-
-## test: 
-* test 
-* etst 
-* test
