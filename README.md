@@ -15,16 +15,16 @@
 # Interview Prep Answers
 
 # Answer 1.
-## IaaS (Infrastructure as a Service): IaaS products allow organizations to manage their business resources — such as their network, servers, and data storage — on the cloud. (Azure, AWS, GCP...)
+### IaaS (Infrastructure as a Service): IaaS products allow organizations to manage their business resources — such as their network, servers, and data storage — on the cloud. (Azure, AWS, GCP...)
 
-## PaaS (Platform as a Service): PaaS products allow businesses and developers to host, build, and deploy consumer-facing apps. (Heroku, Vercel, Netlify...)
+### PaaS (Platform as a Service): PaaS products allow businesses and developers to host, build, and deploy consumer-facing apps. (Heroku, Vercel, Netlify...)
 
-## SaaS (Software as a Service): By far the most common cloud service, SaaS products offer both consumers and businesses cloud-based tools and applications for everyday use. (DropBox, Jira, Netflix...)
+### SaaS (Software as a Service): By far the most common cloud service, SaaS products offer both consumers and businesses cloud-based tools and applications for everyday use. (DropBox, Jira, Netflix...)
 
 
 # Answer 2.
-## It's a model that involves the use of feature branches and multiple primary branches for example: production, hotfix, release, develop, feature and so on... 
-## in this example prod, release and feature would be primary branches to pull and work from 
+### It's a model that involves the use of feature branches and multiple primary branches for example: production, hotfix, release, develop, feature and so on... 
+### in this example prod, release and feature would be primary branches to pull and work from 
 
 # Answer 3.
 ## cd => change directory, ls => list current directory, cp => copy files and directories and many more see: [More useful commands](https://www.davekb.com/browse_computer_tips:linux_two_letter_commands:txt)
